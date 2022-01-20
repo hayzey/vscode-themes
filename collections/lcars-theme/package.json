@@ -9,6 +9,9 @@
     "categories": [
         "Themes"
     ],
+    "scripts": {
+        "localinstall": "cp -r . ~/.vscode/extensions/$(basename \"$(pwd)\")"
+    },
     "contributes": {
         "themes": [
             {

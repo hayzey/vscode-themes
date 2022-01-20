@@ -6,11 +6,11 @@
 	"version": "0.2.0",
     "configurations": [
         {
-            "name": "Extension",
+            "name": "Debug LCARS Theme",
             "type": "extensionHost",
             "request": "launch",
             "args": [
-                "--extensionDevelopmentPath=${workspaceFolder}"
+                "--extensionDevelopmentPath=${workspaceFolder}${pathSeparator}collections${pathSeparator}lcars-theme"
             ]
         }
     ]

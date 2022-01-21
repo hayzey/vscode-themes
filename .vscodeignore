@@ -1,4 +1,7 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.gitattributes
+.prettierrc.json
+.prettierrc
 vsc-extension-quickstart.md

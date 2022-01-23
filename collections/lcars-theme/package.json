@@ -9,6 +9,15 @@
     "categories": [
         "Themes"
     ],
+    "license": "https://github.com/hayzey/vscode-themes/blob/main/LICENSE",
+    "homepage": "https://github.com/hayzey/vscode-themes/tree/main/collections/lcars-theme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hayzey/vscode-themes.git"
+    },
+    "bugs": {
+        "url": "https://github.com/hayzey/vscode-themes/issues"
+    },
     "scripts": {
         "localinstall": "cp -r . ~/.vscode/extensions/$(basename \"$(pwd)\")"
     },

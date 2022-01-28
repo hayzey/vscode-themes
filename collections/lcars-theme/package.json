@@ -1,5 +1,6 @@
 {
     "name": "lcars-theme",
+    "publisher": "hayzey",
     "displayName": "LCARS Theme",
     "description": "Star Trek LCARS inspired theme.",
     "version": "0.0.1",

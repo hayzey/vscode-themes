@@ -19,7 +19,9 @@
         "url": "https://github.com/hayzey/vscode-themes/issues"
     },
     "scripts": {
-        "localinstall": "cp -r . ~/.vscode/extensions/$(basename \"$(pwd)\")"
+        "localinstall": "cp -r . ~/.vscode/extensions/$(basename \"$(pwd)\")",
+        "ext:package": "vsce package --baseContentUrl=\"https://raw.githubusercontent.com/hayzey/vscode-themes/main/collections/lcars-theme/\" --baseImagesUrl=\"https://raw.githubusercontent.com/hayzey/vscode-themes/main/collections/lcars-theme/\"",
+        "ext:publish": "vsce publish --baseContentUrl=\"https://raw.githubusercontent.com/hayzey/vscode-themes/main/collections/lcars-theme/\" --baseImagesUrl=\"https://raw.githubusercontent.com/hayzey/vscode-themes/main/collections/lcars-theme/\""
     },
     "contributes": {
         "themes": [

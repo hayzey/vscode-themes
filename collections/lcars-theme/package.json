@@ -3,13 +3,14 @@
     "publisher": "hayzey",
     "displayName": "LCARS Theme",
     "description": "Star Trek LCARS inspired theme.",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "engines": {
         "vscode": "^1.63.0"
     },
     "categories": [
         "Themes"
     ],
+    "icon": "images/icon.png",
     "license": "https://github.com/hayzey/vscode-themes/blob/main/LICENSE",
     "homepage": "https://github.com/hayzey/vscode-themes/tree/main/collections/lcars-theme",
     "repository": {
